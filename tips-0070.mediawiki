@@ -1,0 +1,23 @@
+DIP: 70
+Title: Payment Protocol Implementation for Termubit Infrastructure
+Author: Aldianokto <aldianokto@proton.me>
+Status: Draft
+Type: Standards Track
+Created: 2026-06-18
+
+== Abstract ==
+This DIP outlines the custom implementation of the Payment Protocol for the Termubit blockchain ecosystem. Unlike standard Bitcoin implementations, Termubit requires a lightweight, low-latency transaction validation mechanism designed for mobile and embedded environments (specifically for Termux-based nodes). This proposal defines the handshake requirements, payment request handling, and the integration of genesis-hash based network identification to prevent cross-chain transaction leakage.
+
+== PaymentDetails/PaymentRequest Specification ==
+To maintain independence from Bitcoin-based directory services, Termubit adopts a dynamic network identification strategy:
+* '''Network Identification:''' Instead of relying on hardcoded "main" or "test" strings, Termubit nodes utilize the unique genesis block hash. This ensures that a payment request generated on the Termubit mainnet cannot be processed by any other Scrypt-based chain.
+* '''Validation Logic:''' Payment requests must contain a metadata field "genesis" which the client wallet MUST verify against its local chainparams before prompting the user for signature approval.
+* '''Integration with Termux Node:''' The implementation handles asynchronous request processing to accommodate the variable latency of mobile network interfaces, ensuring the `termubitd` process remains responsive during high-volume transaction windows.
+
+== Security Considerations ==
+The protocol enforces strict origin verification for payment requests. By utilizing the genesis hash as the primary network identifier, we eliminate the risk of "replay attacks" where a request from a cloned/forked chain could be broadcast on the Termubit mainnet. Implementers are encouraged to verify that their node environment (`termubitd`) is running the latest patch to support this verification handshake.
+
+== References ==
+BIP 0070 : Payment Protocol
+BIP 0071 : Payment MIME types
+DIP 0071 : Termubit Protocol Extensions (Proposed)
