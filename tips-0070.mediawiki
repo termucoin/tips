@@ -17,4 +17,6 @@ To maintain independence from other directory services, Termubit adopts a dynami
 The protocol enforces strict origin verification to eliminate the risk of "replay attacks".
 
 == References ==
-* [[bip-0070.mediawiki|DIP 0070]] : Payment Protocol
+* [[bip-0070.mediawiki|BIP 0070]] : Payment Protocol
+
+[[bip-0071.mediawiki|BIP 0071]] : Payment Protocol MIME types
