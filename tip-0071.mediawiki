@@ -1,6 +1,6 @@
 Termubit Specification: 0071
  Title: Payment Protocol MIME Types for Termubit
- Author: Aldianokto <aldianokto@proton.me>
+ Author: Ares <areshin@proton.me>
  Status: Draft
  Type: Standards Track
  Created: 2026-06-18
