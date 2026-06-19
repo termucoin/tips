@@ -1,4 +1,4 @@
-Termubit Specification: 0071
+ TIP: 71
  Title: Payment Protocol MIME Types for Termubit
  Author: Ares <areshin@proton.me>
  Status: Draft
