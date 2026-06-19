@@ -17,7 +17,7 @@ message Output {
 }
 
 message PaymentDetails {
-  optional string genesis = 1 [default = "0x00000937cdbf9936fb1338bdb7ae61798c6d761d1d436606adef9a8bce33b6b4"]; 
+  optional string genesis = 1 [default = "00000937cdbf9936fb1338bdb7ae61798c6d761d1d436606adef9a8bce33b6b4"]; 
   repeated Output outputs = 2; // Where payment should be sent
   required uint64 time = 3;    // Timestamp: when payment request created
   optional uint64 expires = 4; // Timestamp: when this request should be considered invalid
