@@ -18,6 +18,6 @@ To ensure compatibility, Termubit client software MUST adhere to the following r
 By enforcing strict "Accept" header compliance, we ensure that the client and the payment server are using the same communication protocol version. This prevents protocol negotiation errors that could lead to incomplete transaction broadcasting in high-latency environments like those found in mobile network usage.
 
 == References ==
-* [[tip-0070]]|Termubit Specification 0070]] : Payment Protocol
-* [[tip-0071]]|Termubit Specification 0071]] : Payment Protocol MIME types
+* [[tip-0070|Termubit Specification 0070]] : Payment Protocol
+* [[tip-0071|Termubit Specification 0071]] : Payment Protocol MIME types
 * RFC 7231 : Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content
