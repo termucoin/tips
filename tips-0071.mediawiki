@@ -23,4 +23,9 @@ The MIME types used for Termubit payment protocol messages are:
 |}
 
 == References ==
-* [[tips-0070]] : Payment Protocol
+
+[[bip-0070.mediawiki|BIP 0070]] : Payment Protocol
+
+[[tip-0070.mediawiki|TIP 0070]] : Payment Protocol (Termubit)
+
+[[bip-0071.mediawiki|BIP 0071]] : Payment Protocol MIME types
