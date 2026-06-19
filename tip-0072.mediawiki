@@ -1,4 +1,5 @@
-Title: URI Scheme Extensions for Termubit Payment Protocol
+ TIP: 72
+ Title: URI Scheme Extensions for Termubit Payment Protocol
  Author: AresCyu <areshin@proton.me>
  Status: Draft
  Type: Standards Track
