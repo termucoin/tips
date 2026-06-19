@@ -1,4 +1,5 @@
 // Termubit Payment Protocol messages
+// Copyright (c) The Termubit Core developers
 // Derived from the Bitcoin Payment Protocol (BIP0070)
 
 syntax = "proto3";
