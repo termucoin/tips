@@ -6,7 +6,7 @@
  Created: 2026-06-18
 
 == Abstract ==
-This document defines an extension to the `termubit:` URI scheme to natively support the Termubit Payment Protocol. This extension enables seamless integration between web-based payment requests and Termubit-compatible client software, ensuring a frictionless user experience across mobile and desktop interfaces.
+This document defines an extension to the termubit: URI scheme to natively support the Termubit Payment Protocol. This extension enables seamless integration between web-based payment requests and Termubit-compatible client software, ensuring a frictionless user experience across various computing interfaces.
 
 == Specification ==
 To ensure compatibility, Termubit client software MUST adhere to the following requirements:
