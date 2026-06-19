@@ -1,5 +1,6 @@
 // Termubit Payment Protocol messages
 // Copyright (c) 2026 The Termubit Core developers
+// https://github.com/termubit/tips
 // Derived from the Bitcoin Payment Protocol (BIP0070)
 
 syntax = "proto3";
