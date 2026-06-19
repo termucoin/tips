@@ -1,15 +1,21 @@
-Dogecoin Standards Documents
-============================
+# Termubit Improvement Proposals (TIPs)
 
-This repository contains three types of files:
+This repository contains the official standards and improvement proposals for the Termubit blockchain ecosystem.
 
-* BIPs: Bitcoin Improvement Proposals
-* DIPs: Dogecoin-specific variations to existing BIPs
-* Standards documents: Draft standards for submission as RFCs (Request For Comments)
+## Overview
+TIPs are the primary mechanism for proposing new features, collecting community input, and documenting design decisions for Termubit. 
 
-BIP documents are copied to this repository in order to provide a static reference point from
-which DIPs are derived. DIPs are only to be used where minor modifications are required to a
-BIP to make it suitable for Dogecoin.
+*   **TIPs (Termubit Improvement Proposals)**: Standards and protocols specifically designed for the Termubit blockchain.
+*   **Standards Documents**: Draft standards for submission as RFCs (Request For Comments) to ensure technical consistency across the ecosystem.
 
-For any innovative work or significant divergence from a Bitcoin standard, documents should
-be prepared for submission as standards track RFCs.
+## Available Specifications
+The following specifications are currently tracked in this repository:
+
+| ID | Title |
+| :--- | :--- |
+| [TIP 0070](tip-0070.mediawiki) | Payment Protocol Implementation |
+| [TIP 0071](tip-0071.mediawiki) | Payment Protocol MIME Types |
+| [TIP 0072](tip-0072.mediawiki) | Payment Protocol URI Scheme |
+
+## Contribution Guidelines
+For any innovative work or significant architectural changes, documents should be prepared for submission as standards track RFCs. Please ensure your proposals follow the established formatting guidelines.
