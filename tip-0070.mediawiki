@@ -1,6 +1,6 @@
  TIP: 70
  Title: Payment Protocol Implementation for Termubit Infrastructure
- Author: AresCyu <ares@proton.me>
+ Author: AresCyu <areshin@proton.me>
  Status: Draft
  Type: Standards Track
  Created: 2026-06-18
