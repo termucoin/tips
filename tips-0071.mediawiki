@@ -1,0 +1,27 @@
+Termubit Specification: 0071
+ Title: Payment Protocol MIME Types for Termubit
+ Author: AresCyu <areshin@proton.me>
+ Status: Draft
+ Type: Standards Track
+ Created: 2026-06-18
+
+== Abstract ==
+This document defines a MIME (RFC 2046) Media Type for Termubit payment protocol message files. These types are designed to handle payment communication within the Termubit network. These MIME types are to be submitted for internal registry as our formal standards are established, following RFC 6838 section 3.2.
+
+== Specification ==
+The MIME types used for Termubit payment protocol messages are:
+
+{| class="wikitable"
+|-
+! Message !! Type/Subtype
+|-
+| PaymentRequest || application/vnd.termubit.payment.request
+|-
+| Payment || application/vnd.termubit.payment.payment
+|-
+| PaymentACK || application/vnd.termubit.payment.ack
+|}
+
+== References ==
+* Termubit Specification 0070 : Payment Protocol
+* Payment Protocol MIME Types
