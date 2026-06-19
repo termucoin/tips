@@ -1,4 +1,4 @@
-Termubit Specification: 0070
+ TIP: 70
  Title: Payment Protocol Implementation for Termubit Infrastructure
  Author: AresCyu <ares@proton.me>
  Status: Draft
