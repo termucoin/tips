@@ -1,16 +1,16 @@
  TIP: 70
- Title: Payment Protocol Implementation for Termubit Infrastructure
+ Title: Payment Protocol Implementation for Termucoin Infrastructure
  Author: AresCyu <areshin@proton.me>
  Status: Draft
  Type: Standards Track
  Created: 2026-06-18
 
 == Abstract ==
-This document outlines the custom implementation of the Payment Protocol for the Termubit blockchain ecosystem.
+This document outlines the custom implementation of the Payment Protocol for the Termucoin blockchain ecosystem.
 
 == PaymentDetails/PaymentRequest Specification ==
-To maintain independence from other directory services, Termubit adopts a dynamic network identification strategy:
-* '''Network Identification:''' Instead of relying on hardcoded strings, Termubit nodes utilize the unique genesis block hash.
+To maintain independence from other directory services, Termucoin adopts a dynamic network identification strategy:
+* '''Network Identification:''' Instead of relying on hardcoded strings, Termucoin nodes utilize the unique genesis block hash.
 * '''Validation Logic:''' Payment requests must contain a metadata field "genesis" which the client wallet MUST verify against its local chainparams.
 
 == Security Considerations ==

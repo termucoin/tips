@@ -1,16 +1,16 @@
  TIP: 72
- Title: URI Scheme Extensions for Termubit Payment Protocol
+ Title: URI Scheme Extensions for Termucoin Payment Protocol
  Author: AresCyu <areshin@proton.me>
  Status: Draft
  Type: Standards Track
  Created: 2026-06-18
 
 == Abstract ==
-This document defines an extension to the termucoin: URI scheme to natively support the Termubit Payment Protocol. This extension enables seamless integration between web-based payment requests and Termubit-compatible client software, ensuring a frictionless user experience across various computing interfaces.
+This document defines an extension to the termucoin: URI scheme to natively support the Termucoin Payment Protocol. This extension enables seamless integration between web-based payment requests and Termucoin-compatible client software, ensuring a frictionless user experience across various computing interfaces.
 
 == Specification ==
-To ensure compatibility, Termubit client software MUST adhere to the following requirements:
-* '''HTTP Header Requirements:''' Termubit client software MUST include a properly formatted "Accept" HTTP header in all outgoing requests when fetching payment details. 
+To ensure compatibility, Termucoin client software MUST adhere to the following requirements:
+* '''HTTP Header Requirements:''' Termucoin client software MUST include a properly formatted "Accept" HTTP header in all outgoing requests when fetching payment details. 
 * '''Header Formatting:''' The "Accept" header must explicitly prioritize the MIME types defined in [[tips-0071]]. Adherence to RFC 7231 (which obsoletes RFC 2616) is mandatory to ensure cross-platform compatibility.
 * '''URI Parameter Handling:''' The `termucoin:` URI scheme is extended to support an optional `request` parameter, which specifies the URL endpoint where the payment details can be retrieved. Clients must sanitize these URLs to prevent potential injection vulnerabilities.
 

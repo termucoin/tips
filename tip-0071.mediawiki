@@ -1,15 +1,15 @@
  TIP: 71
- Title: Payment Protocol MIME Types for Termubit
+ Title: Payment Protocol MIME Types for Termucoin
  Author: Ares <areshin@proton.me>
  Status: Draft
  Type: Standards Track
  Created: 2026-06-18
 
 == Abstract ==
-This document defines the MIME (RFC 2046) Media Type for Termubit payment protocol message files.
+This document defines the MIME (RFC 2046) Media Type for Termucoin payment protocol message files.
 
 == Specification ==
-The MIME types used for Termubit payment protocol messages are:
+The MIME types used for Termucoin payment protocol messages are:
 
 {| class="wikitable"
 |-
@@ -26,6 +26,6 @@ The MIME types used for Termubit payment protocol messages are:
 
 [[bip-0070.mediawiki|BIP 0070]] : Payment Protocol
 
-[[tip-0070.mediawiki|TIP 0070]] : Payment Protocol (Termubit)
+[[tip-0070.mediawiki|TIP 0070]] : Payment Protocol (Termucoin)
 
 [[bip-0071.mediawiki|BIP 0071]] : Payment Protocol MIME types

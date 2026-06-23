@@ -1,5 +1,5 @@
-// Termubit Payment Protocol messages
-// Copyright (c) 2026 The Termubit Core developers
+// Termucoin Payment Protocol messages
+// Copyright (c) 2026 The Termucoin Core developers
 // https://github.com/termucoin/tips
 // Derived from the Bitcoin Payment Protocol (BIP0070)
 
@@ -8,9 +8,9 @@ syntax = "proto3";
 package termucoin_payments;
 
 option java_package = "com.termucoin.protocols.payments";
-option java_outer_classname = "TermubitProtos";
+option java_outer_classname = "TermucoinProtos";
 
-// Generalized form of "send payment to these Termubit addresses"
+// Generalized form of "send payment to these Termucoin addresses"
 message Output {
   optional uint64 amount = 1 [default = 0]; // amount is integer-number-of-satoshis
   required bytes script = 2; // usually one of the standard Script forms

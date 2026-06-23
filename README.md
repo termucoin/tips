@@ -1,11 +1,11 @@
-# Termubit Improvement Proposals (TIPs)
+# Termucoin Improvement Proposals (TIPs)
 
-This repository contains the official standards and improvement proposals for the Termubit blockchain ecosystem.
+This repository contains the official standards and improvement proposals for the Termucoin blockchain ecosystem.
 
 ## Overview
-TIPs are the primary mechanism for proposing new features, collecting community input, and documenting design decisions for Termubit. 
+TIPs are the primary mechanism for proposing new features, collecting community input, and documenting design decisions for Termucoin. 
 
-*   **TIPs (Termubit Improvement Proposals)**: Standards and protocols specifically designed for the Termubit blockchain.
+*   **TIPs (Termucoin Improvement Proposals)**: Standards and protocols specifically designed for the Termucoin blockchain.
 *   **Standards Documents**: Draft standards for submission as RFCs (Request For Comments) to ensure technical consistency across the ecosystem.
 
 ## Available Specifications
