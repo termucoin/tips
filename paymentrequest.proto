@@ -1,13 +1,13 @@
 // Termubit Payment Protocol messages
 // Copyright (c) 2026 The Termubit Core developers
-// https://github.com/termubit/tips
+// https://github.com/termucoin/tips
 // Derived from the Bitcoin Payment Protocol (BIP0070)
 
 syntax = "proto3";
 
-package termubit_payments;
+package termucoin_payments;
 
-option java_package = "com.termubit.protocols.payments";
+option java_package = "com.termucoin.protocols.payments";
 option java_outer_classname = "TermubitProtos";
 
 // Generalized form of "send payment to these Termubit addresses"

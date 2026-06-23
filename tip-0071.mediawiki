@@ -15,11 +15,11 @@ The MIME types used for Termubit payment protocol messages are:
 |-
 ! Message !! Type/Subtype
 |-
-| PaymentRequest || application/vnd.termubit.payment.request
+| PaymentRequest || application/vnd.termucoin.payment.request
 |-
-| Payment || application/vnd.termubit.payment.payment
+| Payment || application/vnd.termucoin.payment.payment
 |-
-| PaymentACK || application/vnd.termubit.payment.ack
+| PaymentACK || application/vnd.termucoin.payment.ack
 |}
 
 == References ==
